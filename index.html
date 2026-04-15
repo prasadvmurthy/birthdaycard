@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Sneha</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ffe4ec, #f3e5f5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    width: 350px;
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  h1 {
+    font-family: 'Brush Script MT', cursive;
+    color: #d81b60;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #333;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  .photo {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+
+  .gallery {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .gallery h2 {
+    font-family: 'Brush Script MT', cursive;
+    color: #8e24aa;
+    margin-bottom: 10px;
+  }
+
+  .photos img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 5px;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+</style>
+</head>
+<body>
+
+<div class="card" id="birthdayCard">
+  <h1>Happy Birthday, Muddu!</h1>
+  <p>Every moment with you has been a beautiful journey. You are my heart, my best friend, my everything. Here's to many more wonderful memories together.</p>
+  <p><strong>Forever Yours,<br>Prasad</strong></p>
+  <img src="couple-photo.jpg" alt="Us Together" class="photo">
+</div>
+
+<div class="gallery">
+  <h2>The Glitters of My Love</h2>
+  <div class="photos">
+    <img src="NamrathaCN.jpg" alt="Memory 1">
+    <img src="NamrathaCN1.jpg" alt="Memory 2">
+    <img src="NamrathaCN2.jpg" alt="Memory 3">
+    <img src="NamrathaCN3.jpg" alt="Memory 4">
+  </div>
+</div>
+
+<script>
+  // Optional: Add confetti animation when card is clicked
+  document.getElementById('birthdayCard').addEventListener('click', () => {
+    alert('🎉 Happy Birthday, Muddu! 🎉');
+  });
+</script>
+
+</body>
+</html>
